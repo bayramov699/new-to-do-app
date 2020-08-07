@@ -63,6 +63,6 @@ const slideshow = new Slideshow({
 });
 
 slideshow.setImages(
-  ['https://source.unsplash.com/1200x700/?nature',]
+  ['https://source.unsplash.com/1200x700/?nature']
 );
 slideshow.run();

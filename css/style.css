@@ -10,6 +10,11 @@ body{
     display: block;
     text-align: center;
 }
+.nav-link{
+    font-size: xxx-large;
+    align-items: center;
+    color: chocolate !important;
+}
 #first{
     background-color: blueviolet;
 }
@@ -43,14 +48,20 @@ footer {
     justify-content: center;
 }
 
+.note-icon{
+    color: #009688;
+}
 .box{
-    min-height: 80vh;
+    min-height: 75vh;
     width: 100%;
     border-radius: 25px;
-    background-color:#95a5a6;
-    padding: 2rem;
+    background-color:#7f8c8d;
+    padding: 1rem;
 }
 
+#submit:hover{
+    background-color: indianred;
+}
 #input{
     border: none;
     background-color: transparent;
@@ -67,6 +78,7 @@ footer {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+   
 }
 
 .adds ul li button{
@@ -76,6 +88,7 @@ footer {
     color: #2c3e50;
     background-color: #84817a;
     border-color: #84817a;
+    
 }
 
 #background {
